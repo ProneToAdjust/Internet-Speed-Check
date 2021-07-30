@@ -13,9 +13,9 @@ pip install -r requirements.txt
 ```
 #### Testing and debugging
 ```
-python Speedtest.py
+python internet_speed_checker.py
 ```
 #### Executable packaging
 ```
-pyinstaller notify_internet_speed_custom.spec
+pyinstaller internet_speed_checker.spec
 ```
