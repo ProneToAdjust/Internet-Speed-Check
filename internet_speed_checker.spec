@@ -3,8 +3,8 @@
 block_cipher = None
 
 
-a = Analysis(['notify_internet_speed.py'],
-             pathex=['C:\\Users\\Owner\\Projects\\Internet-Speed-Check'],
+a = Analysis(['internet_speed_checker.py'],
+             pathex=[''],
              binaries=[],
              datas=[('icon.ico','.')],
              hiddenimports=[],
@@ -23,7 +23,7 @@ exe = EXE(pyz,
           a.zipfiles,
           a.datas,
           [],
-          name='Speedtest',
+          name='Speedcheck',
           debug=False,
           bootloader_ignore_signals=False,
           strip=False,
